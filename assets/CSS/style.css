@@ -95,6 +95,12 @@ button:active {
   width: 10%;
 }
 
-.fas {
+.fa, .fab, .fad, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   display: flex;
-}
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  justify-content: space-between;
